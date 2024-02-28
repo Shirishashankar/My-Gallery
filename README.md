@@ -5,8 +5,14 @@ My Gallery is album collection app created using React.
 ## Features
 
 .Fetch and show albums from the api - https://jsonplaceholder.typicode.com/albums
+
+
 .Add an album, make a POST call to the above url (from where you are fetching) and save the album in react state. (This will be a dummy request, you won’t be able to add albums to the server. But the request is valid and will send you some data. Read the guide).
+
+
 .Update the album, make a PUT call to the above url. (Again this is a dummy call).
+
+
 .Delete an album, make a DELETE call to the above url. (Again this is a dummy call).
 
 ## Available Scripts
@@ -75,3 +81,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Website Images
+
+Main page :
+
+<img width="1440" alt="Screenshot 2024-02-29 at 3 17 52 AM" src="https://github.com/Shirishashankar/My-Gallery/assets/144225998/8ffb6ddb-bfa5-483a-b02a-de818133f772">
+
+Add new album page :
+<img width="1440" alt="Screenshot 2024-02-29 at 3 18 06 AM" src="https://github.com/Shirishashankar/My-Gallery/assets/144225998/da48a91d-0def-4339-82e4-39f18159c4ba">
+
+Edit album page :
+<img width="1440" alt="Screenshot 2024-02-29 at 3 18 23 AM" src="https://github.com/Shirishashankar/My-Gallery/assets/144225998/db579eda-54b5-4a6f-8725-29159a55ff44">
+
