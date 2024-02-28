@@ -1,0 +1,43 @@
+/* Styles for the Form Wrapper */
+.form-wrapper {
+    background-color: #c3edd2;
+    height: 300px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+    margin-left: 500px;
+    border-radius: 15px;
+    border: solid 1px black;
+    box-shadow: 0px 0px 3px 2px #4d4772d4;
+}
+
+/* Styles for Input within Form Group */
+.form-group > input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+/* Styles for Generic Button */
+.btn {
+    padding: 10px;
+    border: 1px solid #162447;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    background-color: #436850;
+    font-weight: 500;
+}
+
+/* Styles for Button Hover Effect */
+.btn:hover {
+    border: 1px solid #162447;
+    color: #162447;
+    background-color: white;
+    font-weight: 500;
+}

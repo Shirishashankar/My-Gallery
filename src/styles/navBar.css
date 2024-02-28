@@ -1,0 +1,124 @@
+/* General styling for the navbar */
+.navbar-wrapper {
+    width: 100%;
+    height: 80px;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    background-color: #1c382e;
+    list-style: none; /* Remove default list styling */
+}
+
+/* Styling for the title/link in the navbar */
+.navbar-wrapper .title a {
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for the logo */
+.navbar-wrapper .logo {
+    width: 45px;
+    height: 45px;
+    margin-right: 5px;
+}
+
+/* Styling for the title text */
+.title a > h2 {
+    color: #fff;
+    line-height: 20px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 10px !important;
+}
+
+/* Styling for the search box */
+.navbar-wrapper .search-box {
+    min-width: 15rem;
+    max-width: 15rem;
+    display: flex;
+    border-bottom: 1px solid white;
+    align-items: center;
+    padding: 2px 0px;
+    justify-content: space-around;
+}
+
+/* Styling for the search icon */
+.navbar-wrapper .search-box svg {
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+/* Styling for the search input */
+.navbar-wrapper .search-box > input {
+    padding: 5px 10px;
+    width: 100%;
+    border: none;
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: white;
+}
+
+/* Styling for the placeholder text in the search input */
+.navbar-wrapper .search-box > input::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+/* Styling for the focused state of the search input */
+.navbar-wrapper .search-box > input:focus {
+    outline: none;
+}
+
+/* Styling for the sticky position */
+.sticky {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Styling for the 'Add New Album' link */
+.navbar-wrapper .add-link {
+    margin-left: auto;
+    cursor: pointer;
+    background-color: #000;
+}
+
+/* Styling for the 'Add New Album' link text */
+.add-link a {
+    text-decoration: none;
+}
+
+/* Styling for the container of the 'Add New Album' link */
+.add-link {
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 13rem;
+}
+
+/* Styling for the text inside the 'Add New Album' link */
+.add-link h4 {
+    font-size: 1.4rem;
+    padding: 0;
+    margin: 0;
+}
+
+/* Styling for the 'Add New Album' icon */
+.add-icon {
+    margin-top: 10%;
+    font-size: 2rem;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* Removing default list styling for navbar items */
+.nav-list .nav-item {
+    list-style: none;
+}

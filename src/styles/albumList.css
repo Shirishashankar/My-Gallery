@@ -1,0 +1,44 @@
+/* Styles for Loader Section */
+.loader-section {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+/* Styles for Custom Loader */
+.custom-loader {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: 
+    radial-gradient(farthest-side, #f12711ee, #f5af19 94%, #0000) top/8px 8px no-repeat,
+    conic-gradient(#0000 30%, #f12711ee, #f5af19);
+  animation: s3 1s infinite linear;
+}
+
+/* Keyframes for Custom Loader Animation */
+@keyframes s3 {
+  100% {
+      transform: rotate(1turn);
+  }
+}
+
+/* Styles for Error Message Section */
+.error-message {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Styles for Error Message Text */
+.error-message h1 {
+  color: white;
+}
+
+/* Styles for Album Column */
+.album-col {
+  display: flex;
+  justify-content: center;
+}
